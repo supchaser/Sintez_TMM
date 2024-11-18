@@ -82,7 +82,7 @@ func main() {
 	})
 
 	for i, r := range results {
-		fmt.Printf("%d| U1h: %.5f, Z1: %.0f, Z2: %.0f, Z3: %.0f, Z4: %.0f, p: %d, G: %.0f\n",
+		fmt.Printf("%d| U1h: %.5f, Z1: %.0f, Z2: %.0f, Z3: %.0f, Z4: %.0f, p: %d, G: %.0f  \n",
 			i, r.U1h, r.Z1, r.Z2, r.Z3, r.Z4, r.P, r.G)
 	}
 }
